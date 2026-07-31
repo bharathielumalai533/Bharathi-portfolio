@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title> Bharathi - Software developer</title>
+  <meta name="title" content="Bharathi - Software developer">
+  <meta name="description" content="Personal portfolio of Bharathi, a Full Stack Developer specializing in Angular, React and AI/RAG solutions.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Experience</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Bharathi</h1>
+
+            <p class="hero-subtitle">
+              Software Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="bharathi" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I'm Bharathi, a Full Stack Developer who enjoys building responsive dashboards, AI-powered
+              applications, and clean, scalable web experiences using Angular, React and Python.
+            </p>
+
+            <a href="./assets/images/resume.pdf" class="btn has-before" download="Bharathi-Resume.pdf">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                What I Work With
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Core Skills</h2>
+            </div>
+
+            <p class="section-text">
+              Passionate Web Developer with hands-on experience in developing responsive applications and interactive
+              dashboards. Committed to building efficient, user-centric solutions and continuously expanding
+              technical expertise.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">
+                    Building responsive and reusable UI components with python, Angular, React, TypeScript, HTML and CSS.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my frontend development skills"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Dashboard & Visualization</h3>
+
+                  <p class="card-text">
+                    Designing interactive dashboards and analytics views using Apache ECharts for real-time
+                    operational data.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my dashboard and visualization skills"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">API Integration</h3>
+
+                  <p class="card-text">
+                    Integrating .NET Web APIs and REST APIs to power dashboards with live production and business
+                    data.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my API integration skills"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">AI / RAG Development</h3>
+
+                  <p class="card-text">
+                    Building AI-powered assistants using LangChain, FAISS and LLMs with Retrieval-Augmented
+                    Generation.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my AI and RAG development skills"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Data Analytics</h3>
+
+                  <p class="card-text">
+                    Analyzing datasets with Python, Pandas, NumPy, Excel and Power BI to uncover trends and business
+                    insights.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my data analytics skills"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Backend & APIs</h3>
+
+                  <p class="card-text">
+                    Developing backend services with Python and FastAPI to support scalable, data-driven
+                    applications.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my backend and API development skills"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">What I Bring</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                Full Stack Developer with hands-on internship experience at BMW Group and Ford Motor Company,
+                building enterprise dashboards and production monitoring tools.
+              </p>
+
+              <p class="section-text">
+                Also passionate about Generative AI, Retrieval-Augmented Generation and data analytics, with several
+                self-driven projects shipped end to end.
+              </p>
+
+              <a href="mailto:bharathielumalai533@gmail.com" class="btn has-before">bharathielumalai533@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Angular</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">React & JavaScript</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Python & Data Analytics</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">AI / LLM / RAG</p>
+
+                    <data class="progress-value" value="75">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">My Work</p>
+
+            <h2 class="h2 section-title">Featured Projects</h2>
+          </div>
+
+          <p class="section-text">
+            A mix of full stack web apps, AI/RAG systems and data analytics projects, from enterprise dashboards to
+            self-driven builds shipped end to end.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 4; --height: 4;">
+
+                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">College Info Assistant</h3>
+
+                  <p class="card-text">AI / RAG · LangChain, FAISS, LLM</p>
+                </div>
+
+                <a href="https://github.com/bharathielumalai533" class="layer-link" target="_blank" rel="noopener"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">GowSan Overseas</h3>
+
+                  <p class="card-text">Web Development · React</p>
+                </div>
+
+                <a href="https://gowsan-overseas-website.vercel.app/" class="layer-link" target="_blank" rel="noopener"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Ocean Floral Bouquets</h3>
+
+                  <p class="card-text">Web Development · React</p>
+                </div>
+
+                <a href="https://ocean-floural-bouquets-website.vercel.app/" class="layer-link" target="_blank" rel="noopener"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Restaurant Web App</h3>
+
+                  <p class="card-text">Web Development · React</p>
+                </div>
+
+                <a href="https://restaurant-web-application-zeta.vercel.app/" class="layer-link" target="_blank" rel="noopener"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Netflix Data Analysis</h3>
+
+                  <p class="card-text">Data Analytics · Python, Pandas</p>
+                </div>
+
+                <a href="https://github.com/bharathielumalai533/Netflix-Data-Analysis" class="layer-link" target="_blank" rel="noopener"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Amazon Sales Analysis</h3>
+
+                  <p class="card-text">Data Analytics · Python, Power BI</p>
+                </div>
+
+                <a href="https://github.com/bharathielumalai533" class="layer-link" target="_blank" rel="noopener"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EXPERIENCE
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">Where I've Worked</p>
+
+          <h2 class="h2 section-title">Professional Experience</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner logo-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-1.jpg" width="700" height="470" loading="lazy"
+                    alt="BMW Group logo" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2026-03">
+                    <span class="span text-lg">Mar</span>
+                    – May 2026
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">BMW Group — Full Stack Developer Intern</h3>
+
+                    <p class="card-text">
+                      Built two enterprise dashboards (Offline & Production Planning Control) with Angular,
+                      TypeScript and Apache ECharts, integrated with .NET Web APIs for real-time production data.
+                      Chennai, India.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner logo-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="Ford Motor Company logo" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2025-01">
+                    <span class="span text-lg">Jan</span>
+                    – Feb 2025
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Ford Motor Company — Web Development Intern</h3>
+
+                    <p class="card-text">
+                      Developed a Production Support Portal for monitoring Autosys jobs, with Angular dashboard
+                      components and REST API integration for real-time status tracking. Chennai, India.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:bharathielumalai5335@gmail.com" class="footer-link">bharathielumalai5335@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Chennai — India</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://github.com/bharathielumalai533" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/bharathi-e-9163a02b0/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
